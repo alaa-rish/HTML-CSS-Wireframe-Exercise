@@ -10,9 +10,19 @@ body{
     text-align: center;
 }
 
+ul {
+    position: relative;
+    left: -100px;
+}
+
 nav ul li{
     display: inline-block;
     margin-right:50px;
+}
+
+li {
+    position: relative;
+    top: -16px;
 }
 
 body{
