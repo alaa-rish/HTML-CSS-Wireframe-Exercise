@@ -8,8 +8,11 @@ header{
 }
 body{
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
+h5{
+    font-weight: 900;
+}
 ul {
     position: relative;
     left: -100px;
@@ -46,13 +49,16 @@ div.spacing{
 }
 
 div.img{
-    width: 470px;
+    width: 480px;
+    float: left;
 
 }
 div.txt{
 text-align: left;
 overflow: auto;
-width: 470px
+width: 465px;
+float: right;
+margin-left: 15px;
 }
 
 footer{
